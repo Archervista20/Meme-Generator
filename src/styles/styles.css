@@ -12,3 +12,20 @@ nav .nav-links {
   align-items: center;
   list-style-type: none;
 }
+
+.form-group {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  padding: 16px;
+}
+
+.form-input {
+  text-indent: 8px;
+}
+
+.form-btn {
+  grid-column: 1 / -1;
+  border: none;
+  background-color: gold;
+  color: black;
+}
